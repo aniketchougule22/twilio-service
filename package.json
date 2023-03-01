@@ -1,5 +1,5 @@
 {
-  "name": "twilio_service",
+  "name": "twilio-service",
   "version": "1.0.0",
   "description": "'twilio_service' is a package that includes several improvements and features including improved security, better performance, and new functionality to make it easier to use.",
   "main": "index.js",
