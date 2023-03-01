@@ -1,8 +1,6 @@
 # twilio-service
 ### An twilio service package for node js.
 
-<!-- 'twilio_service' is a package that includes several improvements and features including improved security, better performance, and new functionality to make it easier to use. -->
-
 With just a few lines of code, your Node.js application can send text messages with 'twilio-service' Programmable SMS.
 
 ## Install
@@ -16,11 +14,11 @@ npm install twilio-service
 ## Usage
 
 ### Environment Variables
-Dotenv is used to populate your environment variables with your account credentials. You can find the credentials you need for this step in the Console.
+Dotenv is used to populate your environment variables with your account credentials. You have to need set env credentials for this step in the .env file like this.
 
 ```javascript
 
-# contents of .env
+# .env
 
 # Set your twilio connection information here
 
