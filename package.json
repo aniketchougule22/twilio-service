@@ -1,7 +1,7 @@
 {
   "name": "twilio-service",
   "version": "1.0.0",
-  "description": "'twilio_service' is a package that includes several improvements and features including improved security, better performance, and new functionality to make it easier to use.",
+  "description": "'twilio-service' is a package that includes several improvements and features including improved security, better performance, and new functionality to make it easier to use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,8 @@
   ],
   "author": "Aniket Chougule",
   "license": "MIT",
-  "repository": ""
+  "repository": "https://github.com/aniketchougule22/twilio-service",
+  "dependencies": {
+    "twilio": "^4.8.0"
+  }
 }
