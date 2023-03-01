@@ -22,10 +22,10 @@ Dotenv is used to populate your environment variables with your account credenti
 
 # Set your twilio connection information here
 
-TWILIO_ACCOUNT_SID = ******
-TWILIO_AUTH_TOKEN = ******
-TWILIO_PHONE_NUMBER = ******
-TWILIO_MESSAGING_SERVICE_ID = ******
+TWILIO_ACCOUNT_SID= ******
+TWILIO_AUTH_TOKEN= ******
+TWILIO_PHONE_NUMBER= ******
+TWILIO_MESSAGING_SERVICE_ID= ******
 
 ```
 ### Initialization
@@ -35,7 +35,7 @@ let twilioService = require("twilio-service");
 
 const message = 'Hello World..!'
 
-twilioService.twilio(message, phone);
+twilioService.twilio(message, phoneNumber);
 
 ```
 ## License
