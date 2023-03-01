@@ -1,17 +1,19 @@
 /* Twilio Integration */
 
-const twillio = (message, phone) => {
+const twilio = (message, phone) => {
     try
     {
         const accountSid = process.env.accountSid; 
         const authToken = process.env.authToken; 
+        const twilio_number = process.env.twilio_number;
+        const messagingServiceSid = process.env.messagingServiceSid;
         const client = require('twilio')(accountSid, authToken);
     
         client.messages
         .create({ 
             body: message, 
-            from: process.env.twilio_number, 
-            messagingServiceSid: process.env.messagingServiceSid,      
+            from: twilio_number, 
+            messagingServiceSid: messagingServiceSid,      
             to: '+91'+phone 
         }) 
         .then(message => console.log(message.sid)).catch(err => {
@@ -27,8 +29,5 @@ const twillio = (message, phone) => {
 
 
 module.exports = {
-    twillio
+    twilio
 }
-
-  
-  
