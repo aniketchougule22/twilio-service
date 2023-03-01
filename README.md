@@ -20,13 +20,14 @@ Dotenv is used to populate your environment variables with your account credenti
 
 ```javascript
 
-const twilioService = require('twilio-service');
-require('dotenv').config();
+# contents of .env
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID
-const authToken = process.env.TWILIO_AUTH_TOKEN
-const twilio_number = process.env.TWILIO_PHONE_NUMBER
-const messagingServiceSid = process.env.TWILIO_MESSAGING_SERVICE_ID
+# Set your twilio connection information here
+
+TWILIO_ACCOUNT_SID = ******
+TWILIO_AUTH_TOKEN = ******
+TWILIO_PHONE_NUMBER = ******
+TWILIO_MESSAGING_SERVICE_ID = ******
 
 ```
 ### Initialization
